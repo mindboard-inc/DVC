@@ -1,0 +1,8 @@
+md5: 5fefa863192567ce9388c6ceaf2ca979
+wdir: ..
+outs:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: data/data.xml
+  cache: true
+  metric: false
+  persist: false
