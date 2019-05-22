@@ -1,0 +1,14 @@
+md5: 75eaf5e86df6fba1c82145f5bc86b2c8
+cmd: python src/prepare.py data/data.xml
+wdir: .
+deps:
+- md5: 1a18704abffac804adf2d5c4549f00f7
+  path: src/prepare.py
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: data/data.xml
+outs:
+- md5: 6652640f2cde8646134c9b5cdfb4583f.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false
